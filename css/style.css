@@ -16,7 +16,9 @@ body {
 img {
     width: auto;
 }
-
+header {
+    height: auto;
+}
 
 .title {
     grid-area: header;
@@ -30,7 +32,7 @@ img {
     grid-area: header;
     font-family: 'Times New Roman', Times, serif;
     font-size: 5em;
-    padding: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 2em;
     margin: 0;
 }
 
@@ -82,11 +84,14 @@ footer {
     list-style: none;
 }
 @media screen and  (max-width: 1000px) {
-   body{
+   body {
     grid-template:
     "header"
     "left"
     "center"
     "footer"
 }
+    img {
+        width:100%;
+    }
 }
