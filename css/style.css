@@ -1,0 +1,87 @@
+/* :root {
+    --bg-color: #ffffff;
+} */
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    display:grid;
+    grid-template:
+        "header header" 900px
+        "left   center" 1fr
+        "footer footer" 150px
+        /300px  1fr;
+}
+
+.title {
+    grid-area: header;
+    background-color: rgba(227, 174, 16, 0.394);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0%;
+}
+
+.kitchen {
+    grid-area: header;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+    padding: 1em 1em 1em 1em;
+    margin: 0;
+}
+
+.story {
+    grid-area: header;
+    margin: 0;
+    padding: 0 0 3em 0;
+}
+
+.time {
+    padding: 1em 0 3em 0;
+}
+.ingredients {
+    grid-area: left;
+    background-color: rgb(227, 174, 16);
+    color: #ffffff;
+    padding: 2em 0 2em 2em;
+    margin: 0;
+}
+
+.banana{
+    grid-area: center;
+    background-color: #fff;
+    padding: 2em 0 2em 3em;
+}
+.mix {
+    grid-area: center;
+    background-color: #fff;
+    padding: 2em 0 2em 3em;
+}
+.cake {
+    grid-area: center;
+    background-color: #fff;
+    padding: 2em 0 2em 3em;
+}
+
+.bake{
+    grid-area: center;
+    background-color: #fff;
+    padding: 2em 0 2em 3em;
+}
+
+footer {
+    grid-area: footer;
+    background-color:  rgba(227, 174, 16, 0.394);
+    padding: 2em 2em 2em 2em;
+}
+.list {
+    list-style: none;
+}
+@media screen and  (max-width: 1000px) {
+   body{
+    grid-template:
+    "header"
+    "left"
+    "center"
+    "footer"
+}
+}
