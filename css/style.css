@@ -13,6 +13,11 @@ body {
         /300px  1fr;
 }
 
+img {
+    width: auto;
+}
+
+
 .title {
     grid-area: header;
     background-color: rgba(227, 174, 16, 0.394);
@@ -49,23 +54,23 @@ body {
 .banana{
     grid-area: center;
     background-color: #fff;
-    padding: 2em 0 2em 3em;
+    padding: 2em 0 2em 1em;
 }
 .mix {
     grid-area: center;
     background-color: #fff;
-    padding: 2em 0 2em 3em;
+    padding: 2em 0 2em 1em;
 }
 .cake {
     grid-area: center;
     background-color: #fff;
-    padding: 2em 0 2em 3em;
+    padding: 2em 0 2em 1em;
 }
 
 .bake{
     grid-area: center;
     background-color: #fff;
-    padding: 2em 0 2em 3em;
+    padding: 2em 0 2em 1em;
 }
 
 footer {
